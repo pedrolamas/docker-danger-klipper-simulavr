@@ -4,7 +4,7 @@
 
 FROM debian:bookworm as build
 
-ARG KLIPPER_REPOSITORY=https://github.com/klipper3d/klipper
+ARG KLIPPER_REPOSITORY=https://github.com/DangerKlippers/danger-klipper
 ARG MOONRAKER_REPOSITORY=https://github.com/Arksine/moonraker
 ARG KLIPPER_SHA
 ARG MOONRAKER_SHA
@@ -122,7 +122,6 @@ RUN <<eot
   mv /build/simulavr/build/pysimulavr/pysimulavr .
   mv /build/mjpg-streamer/mjpg-streamer-experimental ./mjpg-streamer
   mv /build/klipper-virtual-pins/virtual_pins.py ./klipper/klippy/extras/virtual_pins.py
-  mv /build/kiauh/resources/gcode_shell_command.py ./klipper/klippy/extras/gcode_shell_command.py
   mv /build/kiauh/resources/shell_command.cfg ./printer_data/config/printer/shell_command.cfg
   mv /build/moonraker-timelapse/component/timelapse.py ./moonraker/moonraker/components/timelapse.py
   mv /build/moonraker-timelapse/klipper_macro/timelapse.cfg ./printer_data/config/printer/timelapse.cfg
