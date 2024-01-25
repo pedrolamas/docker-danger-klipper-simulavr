@@ -1,6 +1,6 @@
 # docker-danger-klipper-simulavr
 
-[![Project Maintenance](https://img.shields.io/maintenance/yes/2023.svg)](https://github.com/pedrolamas/docker-danger-klipper-simulavr 'GitHub Repository')
+[![Project Maintenance](https://img.shields.io/maintenance/yes/2024.svg)](https://github.com/pedrolamas/docker-danger-klipper-simulavr 'GitHub Repository')
 [![License](https://img.shields.io/github/license/pedrolamas/docker-danger-klipper-simulavr.svg)](https://github.com/pedrolamas/docker-danger-klipper-simulavr/blob/master/LICENSE 'License')
 
 [![Release](https://github.com/pedrolamas/docker-danger-klipper-simulavr/workflows/Release/badge.svg)](https://github.com/pedrolamas/docker-danger-klipper-simulavr/actions 'Build Status')
