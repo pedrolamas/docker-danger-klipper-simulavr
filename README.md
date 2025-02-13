@@ -10,7 +10,7 @@
 
 Simple Docker image running [Danger Klipper](https://github.com/DangerKlippers/danger-klipper/) with Simulavr, [Moonraker](https://github.com/Arksine/moonraker/), and [mjpg-streamer](https://github.com/jacksonliam/mjpg-streamer).
 
-This repo will run a GitHub action every hour to check for new code on the "master" branches of the Danger Klipper and Moonraker repositories, and creates a new Docker image if there are any modifications.
+This repo will run a GitHub action every hour to check for new code on the default branches of the Danger Klipper and Moonraker repositories, and creates a new Docker image if there are any modifications.
 
 ## Usage
 
@@ -94,7 +94,7 @@ docker exec -it klipper-simulavr enable-timelapse
 
 ## Available tags
 
-- `latest`: points to Danger Klipper and Moonraker "master" branches
+- `latest`: points to Danger Klipper and Moonraker default" branches
 - `klipper-sha-<hash>`: points to the Danger Klipper GitHub commit hash
 - `moonraker-sha-<hash>`: points to the Moonraker GitHub commit hash
 
